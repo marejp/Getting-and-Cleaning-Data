@@ -30,6 +30,20 @@ You should create one R script called run_analysis.R that does the following.
 
 I took the liberty to change the sequence a little but the end result is still the same.
 
+* Load the activity labels for later use 
+* Load the features to use it as labels for the final data set
+* Clean the labels. As per point 2 I've only used labels which contain mean() and std() as part of the feature
+* Load the datasets
+* Merged the datasets by using the rbind function
+* Only keep the tables needed for the tidy dataset
+* Add the labels
+* Merge the activity labels with the activity code
+* Create the tidy file
+
+
+
+
+
 
 
 
