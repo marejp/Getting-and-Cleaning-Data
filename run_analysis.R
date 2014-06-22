@@ -40,3 +40,6 @@ colnames(complete.set) <- c("activity","subject",headers.clean)
 ## Reshape the data
 samsungMelt <- melt(complete.set,id=c("activity","subject"))
 subjectmean <- dcast(samsungMelt,activity + subject ~ variable,mean)
+
+## Write the File
+write.table(subjectmean, file = "tidyData.txt",sep=",",row.names=FALSE)
