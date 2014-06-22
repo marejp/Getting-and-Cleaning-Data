@@ -21,12 +21,12 @@ The script used to clean the data is run_analysis.R and can be downloaded.
 Data Processing
 ---------------
 The script specification as per the course document is:
-You should create one R script called run_analysis.R that does the following. 
+You should create one R script called run_analysis.R that does the following.
 1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names.
-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 I took the liberty to change the sequence a little but the end result is still the same.
 
@@ -39,19 +39,3 @@ I took the liberty to change the sequence a little but the end result is still t
 * Add the labels
 * Merge the activity labels with the activity code
 * Create the tidy file
-
-
-
-
-
-
-
-
-
-
-
-
-         - how I processed the data
-        - what assumptions I made
-        - why I did things a certain way
-        - who and where did I obtain original data
